@@ -24,6 +24,8 @@ logAnalysis(result);
 timer.checkpoint("Log analyzed data");
 
 timer.end(true);
+//  Use .end(false) if you do not want to print out the log at this time
+//  You can print out the log at any time by calling .display() directly
 ```
 
 Console output
