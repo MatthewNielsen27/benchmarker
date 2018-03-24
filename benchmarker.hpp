@@ -11,8 +11,8 @@ class Benchmarker{
 
   public:
   Benchmarker();
-  bool start();
+  bool start(std::string title);
   bool checkpoint(std::string title);
-  bool end();
+  bool end(bool display_results);
   void display();
 };
