@@ -12,7 +12,7 @@ Benchmarker timer;
 timer.start("Analysis of user input");
 
 std::string input;
-std::cin << input;
+std::cin >> input;
 
 auto data = parseUserInput(input);
 timer.checkpoint("Parse input");
